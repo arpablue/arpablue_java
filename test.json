@@ -1,0 +1,11 @@
+{
+    "name":"Jhonny",
+    "lastname":"Prove",
+    "database":[
+        "host":"localhost",
+        "database":"localhost",
+        "user":"noroot",
+        "password":"noroot"
+    ]
+    
+}
