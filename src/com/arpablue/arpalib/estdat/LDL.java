@@ -20,10 +20,21 @@ public class LDL<T> {
      * Default constructor.
      */
     public LDL()
-    
     {
         mLDL = new ArrayList<ArrayList<T>>();
         
+    }
+    /**
+     * It specify the LDL over the object will work.
+     * @param ldl It is the new LDL used.
+     */
+    public void setLDL( ArrayList<ArrayList<T>> ldl )
+    {
+        this.mLDL = ldl;
+        if( this.mLDL == null )
+        {
+            this.mLDL = new ArrayList<ArrayList<T>>();
+        }
     }
     /**
      * It return the quantity of list.
